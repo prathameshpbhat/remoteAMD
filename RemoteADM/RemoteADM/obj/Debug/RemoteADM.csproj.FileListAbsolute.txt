@@ -1,0 +1,15 @@
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\RemoteADM.exe.config
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\RemoteADM.exe
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\RemoteADM.pdb
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.Form1.resources
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.exe
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.pdb
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.csproj.ResolveComReference.cache
+c:\users\lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.Form2.resources
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\RemoteADM.exe.manifest
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\RemoteADM.application
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.exe.manifest
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.application

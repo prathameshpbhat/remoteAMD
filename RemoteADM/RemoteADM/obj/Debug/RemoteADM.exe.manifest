@@ -42,17 +42,35 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RemoteADM.exe" size="66496">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RemoteADM.exe" size="67520">
       <assemblyIdentity name="RemoteADM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4Z90aqP7oDyAFXFOyn6cqEmGcOoZmRD12cCT9sOwqSs=</dsig:DigestValue>
+        <dsig:DigestValue>prQJvl3iGq6OTTdhZ6Eq2ybQSEp9s7TozufrMbwQ7tE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="Database1.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ia9Qfg4QTGJA7FbbYqNZqqQDeAw54qENVwJzPu3qVDc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XZDZTzJAHuo1+kAZZ7OgIFleNB6cF+UeGoCZcGT7Tvg=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="RemoteADM.exe.config" size="189">
     <hash>
       <dsig:Transforms>

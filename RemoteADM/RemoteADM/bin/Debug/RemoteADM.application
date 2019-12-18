@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="RemoteADM.exe.manifest" size="3464">
+    <dependentAssembly dependencyType="install" codebase="RemoteADM.exe.manifest" size="4320">
       <assemblyIdentity name="RemoteADM.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UYtkSzRKZ8mVXduyVbLC/Izo7enbKxQvJGfLkJ6Eu54=</dsig:DigestValue>
+        <dsig:DigestValue>8EamwO1SlrvM9BiaOVfPS7rnLuHvzK4Sy8BLVjo3XM8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

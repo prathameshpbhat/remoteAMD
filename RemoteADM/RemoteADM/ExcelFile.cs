@@ -89,6 +89,9 @@ namespace RemoteADM
                     myExcelApplication.Quit(); // close the excel application
                 }
             }
+            Marshal.ReleaseComObject(myExcelWorkSheet);
+            Marshal.ReleaseComObject(myExcelWorkbook);
+            Marshal.ReleaseComObject(myExcelApplication);
 
         }
        public void create_newExcel()

@@ -116,6 +116,11 @@ namespace RemoteADM
 
 
             }
+            else
+            {
+                con.Close();
+
+            }
             con.Open();
             SqlCommand command2 = new SqlCommand("select count(state) from [Table] where state=2 GROUP BY state", con);
       

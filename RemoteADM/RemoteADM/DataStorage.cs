@@ -140,6 +140,83 @@ namespace RemoteADM
 
             con.Close();
         }
-        
+       public void setHEadercol(string headcol)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\Database1.mdf;Integrated Security=True");
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("UPDATE   [Details] SET headcol=@headcol WHERE id=1", con);
+
+            cmd.Parameters.AddWithValue("@headcol", headcol);
+         
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+        public void setSecondcol( string secondheadcol)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\Database1.mdf;Integrated Security=True");
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("UPDATE   [Details] SET secondheadcol=@secondheadcol WHERE id=1", con);
+
+          
+            cmd.Parameters.AddWithValue("@secondheadcol", secondheadcol);
+           
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+        public void SloganText(String slogan)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\Database1.mdf;Integrated Security=True");
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("UPDATE   [Details] SET slogan=@slogan WHERE id=1", con);
+
+            cmd.Parameters.AddWithValue("@slogan", slogan);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+        public string getheadcol()
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\Database1.mdf;Integrated Security=True");
+            con.Open();
+            SqlCommand command = new SqlCommand("SELECT * FROM  [Details]  ", con);
+
+            SqlDataReader sdr = command.ExecuteReader();
+            if (sdr.Read())
+                return sdr["headcol"].ToString();
+            else
+                return "#1A75FF";
+        }
+        public string getsecondcol()
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\Database1.mdf;Integrated Security=True");
+            con.Open();
+            SqlCommand command = new SqlCommand("select * from [Details] where Id=1 ", con);
+
+            SqlDataReader sdr = command.ExecuteReader();
+            if (sdr.Read())
+                return sdr["secondheadcol"].ToString();
+            else
+                return "#4D90FF";
+           
+        }
+        public string sloganString()
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\Database1.mdf;Integrated Security=True");
+            con.Open();
+            SqlCommand command = new SqlCommand("select * from [Details] where Id=1 ", con);
+
+            SqlDataReader sdr = command.ExecuteReader();
+            if (sdr.Read())
+                return sdr["slogan"].ToString();
+            else
+                return "Don't be safely blinded be safety minded.";
+        }
     }
 }

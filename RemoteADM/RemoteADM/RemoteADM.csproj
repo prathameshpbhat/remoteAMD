@@ -73,6 +73,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="colorchange.cs" />
     <Compile Include="DataStorage.cs" />
     <Compile Include="E:\Programing projects\RemoteAmdNEPL\ReemoteAmd.cs">
       <SubType>Form</SubType>

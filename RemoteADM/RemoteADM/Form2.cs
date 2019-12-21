@@ -13,17 +13,35 @@ namespace RemoteADM
    
     public partial class Form2 : Form
     {
-        int i = 0;
+        int i = 0,z=0,p=0;
         public static Form2 ss;
+       public static string slogans;
+        string[] breakMysentence;
         public Form2()
         {
             InitializeComponent();
           
         }
+        void sloganchecker()
+        {
+            foreach(char c in slogans)
+            {
+                if (c == '.')
+                {
+                    i++;
+                }
+               
+            }
+            breakMysentence = slogans.Split('.');
 
+        }
         public void Form2_Load(object sender, EventArgs e)
         {
-            label_Slogan.Text = "Don't be safely blinded be safety minded.";
+            DataStorage data = new DataStorage();
+            slogans = data.sloganString();
+            sloganchecker();
+       
+            timer3.Enabled = true;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -53,21 +71,38 @@ namespace RemoteADM
 
         private void timer3_Tick(object sender, EventArgs e)
         {
-            if(i==0)
+            z++;
+            if (z == 1000)
             {
-                label_Slogan.ForeColor = Color.Green;
-                label_Slogan.Text = "Don't be safely blinded be safety minded.";
-                i = 1;
+                z = 0;
+                p++;
             }
-            else
+            if (p ==(i))
             {
-                label_Slogan.ForeColor = Color.Blue;
-                label_Slogan.Text = "Being safe is like Breathing you never want to stop.";
-                i = 0;
+                
+                    p = 0;
+                
             }
+         
+               
+                label_Slogan.Text = breakMysentence[p];
+              
+            
+              
+            
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_Slogan_Click(object sender, EventArgs e)
         {
 
         }

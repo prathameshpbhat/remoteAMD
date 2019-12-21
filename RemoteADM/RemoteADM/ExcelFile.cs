@@ -12,7 +12,7 @@ namespace RemoteADM
     class ExcelFile
     {
         private string excelFilePath = string.Empty;
-        private int rowNumber = 1; // define first row number to enter data in excel
+        public int rowNumber = 1; // define first row number to enter data in excel
 
         Excel.Application myExcelApplication;
         Excel.Workbook myExcelWorkbook;

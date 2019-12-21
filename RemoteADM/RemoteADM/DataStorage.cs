@@ -64,12 +64,12 @@ namespace RemoteADM
                     Form1.array[room_number, bed_num].state= Int32.Parse(sdr["state"].ToString());
                     Form1.array[room_number, bed_num].name = sdr["Name"].ToString();
                     
-                    dlg.dataGridView1.Rows[bed_num+1 ].Cells[room_number].Value = sdr["Name"].ToString(); ;
+                    dlg.dataGridView1.Rows[bed_num ].Cells[room_number+1].Value = sdr["Name"].ToString(); ;
                     DataGridViewCellStyle style1 = new DataGridViewCellStyle();
                     style.Font = new Font(dlg.dataGridView1.Font, FontStyle.Bold);
                     style.BackColor = Color.FromArgb(255, 77, 77);
                     style.ForeColor = Color.White;
-                    dlg.dataGridView1.Rows[bed_num+1].Cells[room_number].Style = style;
+                    dlg.dataGridView1.Rows[bed_num].Cells[room_number+1].Style = style;
                 }
 
                 con.Close();
@@ -217,6 +217,33 @@ namespace RemoteADM
                 return sdr["slogan"].ToString();
             else
                 return "Don't be safely blinded be safety minded.";
+        }
+
+        public int getRownum()
+        {
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\Database1.mdf;Integrated Security=True");
+            con.Open();
+            SqlCommand command = new SqlCommand("select * from [Details] where Id=1 ", con);
+
+            SqlDataReader sdr = command.ExecuteReader();
+            if (sdr.Read())
+                return Int32.Parse(sdr["Rownum"].ToString());
+     
+            else
+                return 1;
+        }
+        public void SetRownum(int Rownum)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\Database1.mdf;Integrated Security=True");
+
+            con.Open();
+            SqlCommand cmd = new SqlCommand("UPDATE   [Details] SET Rownum=@Rownum WHERE id=1", con);
+
+            cmd.Parameters.AddWithValue("@Rownum", Rownum);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
         }
     }
 }

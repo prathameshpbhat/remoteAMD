@@ -37,6 +37,13 @@ namespace RemoteADM
             }
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form1 f1 = new Form1();
+            f1.Show();
+            this.Close();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             ColorDialog colorDlg = new ColorDialog();

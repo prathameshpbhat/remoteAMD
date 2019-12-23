@@ -12,7 +12,7 @@ namespace RemoteADM
     class ExcelFile
     {
         private string excelFilePath = string.Empty;
-        public int rowNumber = 1; // define first row number to enter data in excel
+        public  int rowNumber = 1; // define first row number to enter data in excel
 
         Excel.Application myExcelApplication;
         Excel.Workbook myExcelWorkbook;
@@ -30,7 +30,7 @@ namespace RemoteADM
             set { rowNumber = value; }
         }
 
-        public void openExcel()
+        public async void openExcel()
         {
             myExcelApplication = null;
 
@@ -52,7 +52,7 @@ namespace RemoteADM
             int numberOfSheets = myExcelWorkbook.Worksheets.Count; // get number of worksheets (optional)
         }
 
-        public void addDataToExcel(string firstname,String Zone, string lastname, string language)
+        public async void addDataToExcel(string firstname,String Zone, string lastname, string language)
         {
 
             myExcelWorkSheet.Cells[rowNumber, 1] = firstname;
@@ -64,7 +64,7 @@ namespace RemoteADM
 
         }
 
-        public void closeExcel()
+        public async void closeExcel()
         {
             try
             {
@@ -94,7 +94,7 @@ namespace RemoteADM
             Marshal.ReleaseComObject(myExcelApplication);
 
         }
-       public void create_newExcel()
+       public async void create_newExcel()
         {
 
           

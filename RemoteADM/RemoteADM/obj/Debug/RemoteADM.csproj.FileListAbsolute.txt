@@ -12,8 +12,8 @@ C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\bin\De
 C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\RemoteADM.application
 C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.exe.manifest
 C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.application
-C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\Database1.mdf
-C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\Database1_log.ldf
-C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.csprojAssemblyReference.cache
 C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.csproj.CoreCompileInputs.cache
 C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.settingform.resources
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\Database1.mdf
+C:\Users\Lenovo\Documents\Visual Studio 2017\Projects\RemoteADM\RemoteADM\bin\Debug\Database1_log.ldf
+C:\Users\Lenovo\documents\visual studio 2017\Projects\RemoteADM\RemoteADM\obj\Debug\RemoteADM.csprojAssemblyReference.cache

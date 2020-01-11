@@ -30,28 +30,30 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.Room18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RoomHeader = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.RoomHeader = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room12 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room13 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Room18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -89,101 +91,6 @@
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Room18
-            // 
-            this.Room18.HeaderText = "18";
-            this.Room18.Name = "Room18";
-            // 
-            // Room17
-            // 
-            this.Room17.HeaderText = "17";
-            this.Room17.Name = "Room17";
-            // 
-            // Room16
-            // 
-            this.Room16.HeaderText = "16";
-            this.Room16.Name = "Room16";
-            // 
-            // Room15
-            // 
-            this.Room15.HeaderText = "15";
-            this.Room15.Name = "Room15";
-            // 
-            // Room14
-            // 
-            this.Room14.HeaderText = "14";
-            this.Room14.Name = "Room14";
-            // 
-            // Room13
-            // 
-            this.Room13.HeaderText = "13";
-            this.Room13.Name = "Room13";
-            // 
-            // Room12
-            // 
-            this.Room12.HeaderText = "12";
-            this.Room12.Name = "Room12";
-            // 
-            // Room11
-            // 
-            this.Room11.HeaderText = "11";
-            this.Room11.Name = "Room11";
-            // 
-            // Room10
-            // 
-            this.Room10.HeaderText = "10";
-            this.Room10.Name = "Room10";
-            // 
-            // Room9
-            // 
-            this.Room9.HeaderText = "9";
-            this.Room9.Name = "Room9";
-            // 
-            // Room8
-            // 
-            this.Room8.HeaderText = "8";
-            this.Room8.Name = "Room8";
-            // 
-            // Room7
-            // 
-            this.Room7.HeaderText = "7";
-            this.Room7.Name = "Room7";
-            // 
-            // Room6
-            // 
-            this.Room6.HeaderText = "6";
-            this.Room6.Name = "Room6";
-            // 
-            // Room5
-            // 
-            this.Room5.HeaderText = "5";
-            this.Room5.Name = "Room5";
-            // 
-            // Room4
-            // 
-            this.Room4.HeaderText = "4";
-            this.Room4.Name = "Room4";
-            // 
-            // Room3
-            // 
-            this.Room3.HeaderText = "3";
-            this.Room3.Name = "Room3";
-            // 
-            // Room2
-            // 
-            this.Room2.HeaderText = "2";
-            this.Room2.Name = "Room2";
-            // 
-            // Room1
-            // 
-            this.Room1.HeaderText = "1";
-            this.Room1.Name = "Room1";
-            // 
-            // RoomHeader
-            // 
-            this.RoomHeader.HeaderText = "Room->";
-            this.RoomHeader.Name = "RoomHeader";
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -191,11 +98,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -222,24 +128,129 @@
             this.Room16,
             this.Room17,
             this.Room18});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dataGridView1.Location = new System.Drawing.Point(3, 0);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Transparent;
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Transparent;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView1.RowTemplate.Height = 45;
             this.dataGridView1.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.Size = new System.Drawing.Size(1143, 656);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // RoomHeader
+            // 
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RoomHeader.DefaultCellStyle = dataGridViewCellStyle2;
+            this.RoomHeader.HeaderText = "Room->";
+            this.RoomHeader.Name = "RoomHeader";
+            // 
+            // Room1
+            // 
+            this.Room1.HeaderText = "R1";
+            this.Room1.Name = "Room1";
+            // 
+            // Room2
+            // 
+            this.Room2.HeaderText = "R2";
+            this.Room2.Name = "Room2";
+            // 
+            // Room3
+            // 
+            this.Room3.HeaderText = "R3";
+            this.Room3.Name = "Room3";
+            // 
+            // Room4
+            // 
+            this.Room4.HeaderText = "R4";
+            this.Room4.Name = "Room4";
+            // 
+            // Room5
+            // 
+            this.Room5.HeaderText = "R5";
+            this.Room5.Name = "Room5";
+            // 
+            // Room6
+            // 
+            this.Room6.HeaderText = "R6";
+            this.Room6.Name = "Room6";
+            // 
+            // Room7
+            // 
+            this.Room7.HeaderText = "R7";
+            this.Room7.Name = "Room7";
+            // 
+            // Room8
+            // 
+            this.Room8.HeaderText = "R8";
+            this.Room8.Name = "Room8";
+            // 
+            // Room9
+            // 
+            this.Room9.HeaderText = "R9";
+            this.Room9.Name = "Room9";
+            // 
+            // Room10
+            // 
+            this.Room10.HeaderText = "R10";
+            this.Room10.Name = "Room10";
+            // 
+            // Room11
+            // 
+            this.Room11.HeaderText = "R11";
+            this.Room11.Name = "Room11";
+            // 
+            // Room12
+            // 
+            this.Room12.HeaderText = "R12";
+            this.Room12.Name = "Room12";
+            // 
+            // Room13
+            // 
+            this.Room13.HeaderText = "R13";
+            this.Room13.Name = "Room13";
+            // 
+            // Room14
+            // 
+            this.Room14.HeaderText = "R14";
+            this.Room14.Name = "Room14";
+            // 
+            // Room15
+            // 
+            this.Room15.HeaderText = "R15";
+            this.Room15.Name = "Room15";
+            // 
+            // Room16
+            // 
+            this.Room16.HeaderText = "R16";
+            this.Room16.Name = "Room16";
+            // 
+            // Room17
+            // 
+            this.Room17.HeaderText = "R17";
+            this.Room17.Name = "Room17";
+            // 
+            // Room18
+            // 
+            this.Room18.HeaderText = "R18";
+            this.Room18.Name = "Room18";
             // 
             // tableLayoutPanel1
             // 
@@ -290,8 +301,8 @@
             this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 430F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 274F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 549F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 280F));
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel8, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel7, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
@@ -313,7 +324,7 @@
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel10, 1, 0);
             this.tableLayoutPanel8.Controls.Add(this.tableLayoutPanel9, 0, 0);
             this.tableLayoutPanel8.ForeColor = System.Drawing.Color.White;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(869, 6);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(863, 6);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -405,7 +416,7 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.Controls.Add(this.label_Time, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.label9, 0, 0);
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(453, 6);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(388, 6);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -416,11 +427,11 @@
             // 
             this.label_Time.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label_Time.AutoSize = true;
-            this.label_Time.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Time.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Time.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label_Time.Location = new System.Drawing.Point(197, 21);
+            this.label_Time.Location = new System.Drawing.Point(197, 18);
             this.label_Time.Name = "label_Time";
-            this.label_Time.Size = new System.Drawing.Size(65, 30);
+            this.label_Time.Size = new System.Drawing.Size(84, 37);
             this.label_Time.TabIndex = 6;
             this.label_Time.Text = "1 aug";
             // 
@@ -428,11 +439,11 @@
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI Emoji", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI Emoji", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label9.Location = new System.Drawing.Point(124, 22);
+            this.label9.Location = new System.Drawing.Point(101, 17);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 28);
+            this.label9.Size = new System.Drawing.Size(90, 38);
             this.label9.TabIndex = 5;
             this.label9.Text = "Time:";
             // 
@@ -449,7 +460,7 @@
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 73F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(421, 73);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(296, 73);
             this.tableLayoutPanel3.TabIndex = 4;
             // 
             // tableLayoutPanel6
@@ -463,7 +474,7 @@
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(319, 67);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(290, 67);
             this.tableLayoutPanel6.TabIndex = 24;
             // 
             // label_Date
@@ -472,7 +483,7 @@
             this.label_Date.AutoSize = true;
             this.label_Date.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_Date.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label_Date.Location = new System.Drawing.Point(96, 18);
+            this.label_Date.Location = new System.Drawing.Point(88, 18);
             this.label_Date.Name = "label_Date";
             this.label_Date.Size = new System.Drawing.Size(68, 30);
             this.label_Date.TabIndex = 4;
@@ -484,7 +495,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label10.Location = new System.Drawing.Point(16, 20);
+            this.label10.Location = new System.Drawing.Point(12, 20);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(60, 26);
             this.label10.TabIndex = 3;
@@ -568,26 +579,6 @@
         }
 
         #endregion
-
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room18;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room17;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room16;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room15;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room14;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room13;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room12;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room11;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room10;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room9;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room8;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room7;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room6;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room5;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room4;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room3;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room2;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn Room1;
-        public  System.Windows.Forms.DataGridViewTextBoxColumn RoomHeader;
         public System.Windows.Forms.DataGridView dataGridView1;
         public  System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         public  System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
@@ -612,5 +603,24 @@
            public System.Windows.Forms.Label label_Time;
            public System.Windows.Forms.Label label9;
         private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RoomHeader;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room7;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room9;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room11;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room12;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room13;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room14;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room15;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room16;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room17;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Room18;
     }
 }

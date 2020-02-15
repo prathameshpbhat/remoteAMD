@@ -97,6 +97,11 @@ namespace RemoteADM
 
         }
 
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
 

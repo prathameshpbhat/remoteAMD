@@ -250,7 +250,7 @@ namespace RemoteADM
                 MessageBox.Show(sdr["Rownum"].ToString());
                     }
             else
-                return 8;
+                return 6;
         }
         public async void SetRownum(int Rownum)
         {

@@ -73,7 +73,7 @@ namespace RemoteADM
             {
                 f1.tableLayoutPanel2.BackColor = Secondheader;
 
-                f2.tableLayoutPanel2.BackColor = Secondheader;
+                //f2.tableLayoutPanel2.BackColor = Secondheader;
                 string SecondHeaderHex = c.HexConverter(Secondheader);
                 
 

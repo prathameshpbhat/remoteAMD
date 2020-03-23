@@ -14,6 +14,8 @@ namespace RemoteADM
 {
     class DataStorage
     {
+        Color backgroundcellcolor, KR_Color, Cr_Color, Ladies_Room_color, CLI_Color, ChangedColVal;
+        colorchange cellbackground = new colorchange();
         public  void putdata(int room_id,int state,string name="",string Entry_time="", string Entry_date = "")
         {
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True;Connect Timeout=30");
@@ -42,6 +44,11 @@ namespace RemoteADM
         }
         public async void getentiredata(Form2 dlg, Form1 datagrid1)
         {
+            ChangedColVal = cellbackground.HEXConverter("#ff9980");
+            KR_Color = cellbackground.HEXConverter("#ccf2ff");
+            CLI_Color = cellbackground.HEXConverter("#eb99ff");
+            Ladies_Room_color = cellbackground.HEXConverter("#ffffcc");
+            backgroundcellcolor = cellbackground.HEXConverter("#99ff99");
 
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True;Connect Timeout=30");
 
@@ -60,9 +67,9 @@ namespace RemoteADM
                     int room_number = val % 100;
                     datagrid1.dataGridView1.Rows[room_number].Cells[bed_num+1].Value = sdr["Name"].ToString(); 
                     DataGridViewCellStyle style = new DataGridViewCellStyle();
-                    style.Font = new Font(datagrid1.dataGridView1.Font, FontStyle.Bold);
+                    style.Font = new Font(datagrid1.dataGridView1.Font, FontStyle.Regular);
                     style.BackColor = Color.Orange;
-                    style.ForeColor = Color.White;
+                    style.ForeColor = Color.Black;
                     datagrid1.dataGridView1.Rows[room_number ].Cells[bed_num+1].Style = style;
                     Form1.array[room_number, bed_num].state= Int32.Parse(sdr["state"].ToString());
                     Form1.array[room_number, bed_num].name = sdr["Name"].ToString();
@@ -71,13 +78,33 @@ namespace RemoteADM
 
                 dlg.dataGridView1.Rows[bed_num ].Cells[room_number+1].Value = sdr["Name"].ToString(); ;
                     DataGridViewCellStyle style1 = new DataGridViewCellStyle();
-                    style.Font = new Font(dlg.dataGridView1.Font, FontStyle.Bold);
-                    style.BackColor = Color.FromArgb(255, 77, 77);
-                    style.ForeColor = Color.White;
-                    dlg.dataGridView1.Rows[bed_num].Cells[room_number+1].Style = style;
-                }
+                style.Font = new Font(dlg.dataGridView1.Font, FontStyle.Regular);
+             
+                style.ForeColor = Color.Black;
+            
+                if (room_number==17)
+                {
+                    style.BackColor = Ladies_Room_color;
 
-                con.Close();
+                }
+               else if(room_number==16)
+                {
+                    style.BackColor = CLI_Color;
+                }
+                else if (Form1.array[room_number, bed_num].state ==1)
+                {
+                    style.BackColor = ChangedColVal;
+                }
+                else if (Form1.array[room_number, bed_num].state == 2)
+                {
+                    style.BackColor = KR_Color;
+                }
+                //Changed Comment1
+                //change below the way other places has been changed
+                dlg.dataGridView1.Rows[bed_num].Cells[room_number + 1].Style = style;
+            }
+   
+            con.Close();
             
            
 
